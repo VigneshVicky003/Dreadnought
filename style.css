@@ -85,7 +85,7 @@ li{
     font-weight: 500;
 }
 
-.nav-button{
+.nav-button a{
     width: 130px;
     height: 45px;
     /* background-color: #2433ff; */
@@ -94,20 +94,18 @@ li{
     box-shadow: #222433ff;
     /* padding: 10px 15px; */
     margin-left: 2rem;
-}
-.nav-button:hover{
-    background-color: #2433ff;
-    color: white;
-    transition: 0.3s;
-}
-.nav-button a{
     font-size: 1.1rem;
     font-weight: 400;
     color: #475569;
     display: flex;
     align-items: center;
     justify-content: center;
-    padding-top: 7px;
+}
+
+.nav-button a:hover{
+    background-color: #2433ff;
+    color: white;
+    transition: 0.3s;
 }
 
 /* Home */
@@ -131,7 +129,7 @@ li{
     rgba(255, 255, 255, 0.3) 0%,
     rgba(255, 255, 255, 0.1) 100%
     );
-    backdrop-filter: blur(6px);
+    backdrop-filter: blur(5px);
     border-radius: 12px;
     width: 55%;
     /* height: 70vh; */
@@ -600,6 +598,10 @@ footer{
         display: block;
     }
 
+    .nav-button a{
+        margin: 0px auto;
+    }
+
     .nav-link{
         display: block;
     }
@@ -643,10 +645,10 @@ footer{
         height: 70%;
     }
     .panel-text h5{
-        font-size: 2rem;
+        font-size: 1.5rem;
     }
     .panel-text h2{
-        font-size: 3rem;
+        font-size: 2rem;
     }
     .block-text{
         padding: 5rem 0;
@@ -744,6 +746,12 @@ footer{
     }
     .panel{
         height: 50vh;
+    }
+    .panel-text h5{
+        font-size: 1.5rem;
+    }
+    .panel-text h2{
+        font-size: 2.5rem;
     }
     .block-text{
         width: 45%;
