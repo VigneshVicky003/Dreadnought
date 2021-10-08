@@ -811,7 +811,7 @@ footer{
     }
 }
 
-@media screen and ( max-height: 600px ){
+@media screen and ( max-height: 780px ){
     .panel-text{
         line-height: 8vh;
     }
@@ -848,6 +848,6 @@ footer{
         font-size: 10px;
     }
     footer{
-        height: 60vh;
+        height: 300px;
     }
 }
